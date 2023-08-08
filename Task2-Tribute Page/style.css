@@ -1,0 +1,78 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+.container{
+    background-color: lightblue;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    
+}
+.top h4{
+    font-size: 30px;
+    text-align: end;
+}
+.top{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image,
+img{
+   width: 300px;
+   height: 320px; 
+
+}
+.about{
+    margin: 60px ;
+}
+.about h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    align-items: flex-end;
+}
+.about p{
+    text-align: justify;
+    font-size: 20px;
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 1.0px;
+
+}
+.achievements{
+    margin: 50px 0;
+}
+.achievements h2{
+    margin-bottom: 20px;
+}
+.achievements ul{
+    margin-left: 50px;
+}
+.achievements li{
+    margin-bottom: 10px;
+    font-size: large;
+}
+footer{
+    margin: 30px 0;
+
+}
+footer p{
+    text-align: end;
+}
